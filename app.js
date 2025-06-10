@@ -16,5 +16,5 @@ app.post("/new", (req, res) => res.send(console.log("username to be saved: ", re
 
 const PORT = 3000;
 app.listen(PORT, () => {
-  console.log(`My first Express app - listening on port ${PORT}!`);
+  console.log(`listening on port ${PORT}!`);
 });
